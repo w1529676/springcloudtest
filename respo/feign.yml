@@ -3,7 +3,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8801/eureka/
 server:
-  port: 8804
+  port: 8804 #feign的端口
 spring:
   application:
     name: feign-consumer
