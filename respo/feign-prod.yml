@@ -8,11 +8,11 @@ spring:
   application:
     name: feign-consumer  #服务的名称id
   thymeleaf:
-      cache: false
-      mode: LEGACYHTML5
-      encoding: UTF-8
-      servlet:
-        content-type: text/html
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
 feign:
   hystrix:
     enabled: true
