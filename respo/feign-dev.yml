@@ -7,6 +7,10 @@ server:
 spring:
   application:
     name: feign-consumer  #服务的名称id
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
